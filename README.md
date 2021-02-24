@@ -1,9 +1,27 @@
 # FetchSkAdNetworkIds
-A simple python script that fetches SkAdNetworkIds from different sources<br>
-and combine as a xml for iOS info.plist.
+iOS 14 requires `Source App` to include SkAdNetworkIds of different platforms in order to<br>
+track Ads attribution properly.
+
+This is a simple python script that fetches SkAdNetworkIds from different sources<br>
+and combine as a xml with most platforms Ids and can be used in iOS info.plist file.
 
 Script can run without any python library dependency.
 Use python 3 to run the script.
+
+The generated XML as follow
+
+
+    <?xml version="1.0" ?>
+    <array>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>nu4557a4je.skadnetwork</string>
+      </dict>
+      ....
+    </array>
+
+**Remember** to add `<key>SKAdNetworkItems</key>` in info.plist as the key name.
+
 
 Source list:
 
