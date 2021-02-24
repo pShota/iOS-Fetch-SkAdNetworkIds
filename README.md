@@ -1,5 +1,5 @@
 # Fetching all available SkAdNetworkIds
-iOS 14 requires `Source App` to include SkAdNetworkIds of different platforms in order to<br>
+iOS 14 requires `Source App` to include a list of different platforms Ids of SkAdNetwork in order to<br>
 track Ads attribution properly.
 
 This is a simple python script that fetches SkAdNetworkIds from different sources<br>
