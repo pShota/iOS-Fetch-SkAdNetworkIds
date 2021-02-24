@@ -1,4 +1,4 @@
-# FetchSkAdNetworkIds
+# Fetching all available SkAdNetworkIds
 iOS 14 requires `Source App` to include SkAdNetworkIds of different platforms in order to<br>
 track Ads attribution properly.
 
